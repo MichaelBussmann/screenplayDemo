@@ -2,7 +2,7 @@ package polteq.webshop.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import polteq.webshop.target.Product;
+import polteq.webshop.targets.Product;
 
 import java.util.List;
 

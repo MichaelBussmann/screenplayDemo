@@ -1,4 +1,4 @@
-package polteq.webshop.target;
+package polteq.webshop.targets;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;

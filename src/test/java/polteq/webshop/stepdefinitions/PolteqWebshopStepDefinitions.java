@@ -13,14 +13,14 @@ import net.serenitybdd.screenplay.actors.Cast;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.questions.Text;
 import org.openqa.selenium.Keys;
-import polteq.webshop.target.PolteqTestShop;
-import polteq.webshop.target.Product;
+import polteq.webshop.targets.PolteqTestShop;
+import polteq.webshop.targets.Product;
 import org.openqa.selenium.WebDriver;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static polteq.webshop.target.Product.FIRST_PRODUCT;
+import static polteq.webshop.targets.Product.FIRST_PRODUCT;
 import static org.hamcrest.Matchers.*;
-import static polteq.webshop.target.Search.SEARCH_INPUT;
+import static polteq.webshop.targets.Search.SEARCH_INPUT;
 
 public class PolteqWebshopStepDefinitions {
     private WebDriver theBrowser;

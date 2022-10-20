@@ -1,4 +1,4 @@
-package polteq.webshop.target;
+package polteq.webshop.targets;
 
 import net.serenitybdd.screenplay.targets.Target;
 

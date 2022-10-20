@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Hit;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.Keys;
-import polteq.webshop.target.Search;
+import polteq.webshop.targets.Search;
 
 public class SearchTheWebsite  implements Task {
     String searchString;
